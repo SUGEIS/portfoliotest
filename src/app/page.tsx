@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main >
       <div className="flex flex-row justify-center items-center mt-32">
-        <h1 className="text-8xl font-bold">Hello World!</h1>
+        <h1 className="text-7xl font-bold">Hello World!</h1>
         {/* <div className={styles.mask}>
         <p>Hello World!</p>
       </div>

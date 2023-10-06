@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       </div>
       <div className='flex flex-col justify-center items-center'>
-      <div className=" flex flex-row  text-center text-3xl font-bold">
+      <div className=" flex flex-row  text-center text-3xl font-semibold">
         I am a monk with a Mac who loves designing and <br/> coding from 
         scratch and gets a kick out of turning ideas  <br/>  into vibrant reality on the screen
       </div> <br/>

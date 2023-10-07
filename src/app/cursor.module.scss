@@ -1,0 +1,14 @@
+// cursor.module.scss
+
+.cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.15s ease-in-out;
+  }
+  

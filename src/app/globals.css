@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+cursor:none}
+
+.custom-cursor{
+position:fixed;
+top:0;
+left:0;
+width:20px;
+height:20px;
+border-radius:50%;
+pointer-events: none;
+z-index:9999;
+mix-blend-mode:difference;
+padding:10px;
+display:flex;
+justify-content:center;
+align-items:center;
+background-color: white;
+
+}
+.cursor-text{
+font-size:5px;
+font-weight:900;
+letter-spacing:1px;
+display:none;}
 
 @keyframes shake {
   0% { transform: rotate(-5deg); }
@@ -14,3 +39,34 @@
 .shake-animation {
   animation: shake 1.0s ease-in-out infinite;
 }
+
+/* styles.css or tailwind.css */
+
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: black; /* Customize the cursor appearance */
+  border-radius: 50%;
+  pointer-events: none; /* Ensure the cursor doesn't interfere with other elements */
+  z-index: 9999; /* Ensure the cursor appears above other content */
+  mix-blend-mode: difference; /* Customize cursor blending mode */
+  transition: transform 0.2s ease; /* Add a smooth transition effect */
+}
+
+a{
+ color:inherit;
+ text-decoration:none;
+ cursor:none;
+ 
+ }
+
+/* Optional: Add hover effects for elements that should interact with the cursor */
+.hover-effect {
+  transition: transform 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1); /* Example: Scale up on hover */
+}
+
